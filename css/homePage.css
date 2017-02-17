@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***********/
+/* Général */
+/***********/
+body{
+	font-family: "Avenir","Helvetica Neue", "Helvetica", "Arial", "sans serif";
+	font-size:18px;
+}
+/*.hidden{
+	display: none;
+}*/
+/**********/
+/* Header */
+/**********/
+header{
+	background-color: rgba(0,0,0,0.6);
+	padding: 20px 0px;
+	width: 100%;
+	position: absolute;
+}
+
+header h1{
+	text-indent: -101%;
+}
+
+header h1 a{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	padding: 10px;
+	background-image: url('../img/logo-spotify_white.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/*******************/
+/* Main & Sections */
+/*******************/
+/*nav a{
+ 	text-decoration: none;
+ 	color: white;	
+}*/
+.intro{
+	background-image: url('../img/lifestyle-hero-lg.jpg');
+	text-align: center;
+	padding-top: 140px;
+	padding-bottom: 100px;
+}
+.intro h2, .descriptif h2{
+	font-size: 4em;
+	font-weight: 600;
+	color: white;
+	padding-bottom: 50px;
+	width: 700px;
+	margin: 0 auto;
+}
+.intro p{
+	color: white;
+	width: 800px;
+	margin: 0 auto;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+.download{
+	color: white;
+	background-color: #84bd00;
+	width: 350px;
+	padding: 1em;
+	margin: 1em 0em;
+	font-weight: 600;
+	font-size: .9em;
+	letter-spacing: .1em;
+	word-spacing: .3em;
+	text-transform: uppercase;
+	border-radius: 10em;
+	border:none;
+}
+.download:hover{
+	background-color: #729423;
+}
+.intro a{
+	color: white;
+	font-size: 0.7em;
+}
+.descriptif {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.descriptif h2{
+	color: black;
+	padding-top: 50px;
+}
+.descriptif p{
+	width: 800px;
+	margin: 0 auto;
+}
+/**********/
+/* Footer */
+/**********/
+/*
+footer{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	padding-top: 25px;
+	font-size: .6em;
+	border-top: 1px solid #dfe0e6;
+}
+footer p{
+	color: #88898c;
+}
+footer a{
+	text-decoration: none;
+	color:#1C1C1F;
+}
+*/
